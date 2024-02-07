@@ -46,7 +46,7 @@ header {
     align-items: center;
     color: #fff;
     padding: 0 15px;
-    margin: 0;
+    margin: -8px -8px;
 }
 
 .logo {
@@ -65,11 +65,11 @@ ul {
 
 .hero-section-left {
     background-color: #1f2937;
-    margin: 0;
+    margin: -8px;
     display: flex;
     justify-content: center;
     gap: 10vw;
-    padding: 6vh 15px;
+    padding: 6vh 30px;
     align-items: center;
     border: none;
 }
