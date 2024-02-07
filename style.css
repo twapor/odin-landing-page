@@ -1,0 +1,31 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.content-wrapper-navbar {
+    max-width: 90vw;
+
+}
+
+header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    padding: 0 15px;
+
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 25px;
+    flex-shrink: 2;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    flex-shrink: 1;
+}
