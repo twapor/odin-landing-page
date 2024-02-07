@@ -1,16 +1,24 @@
 * {
     font-family: "Poppins", sans-serif;
-    box-sizing: content-box;
+    
 }
 
 h1 {
-    color: hsl(0, 0%, 100%);
+    color: #f9faf8;
     line-height: 1.2;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 p {
     color: #E5E7EB;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .hero-section-left-text h1, p{
@@ -28,6 +36,7 @@ p {
     text-align: center;
     border: 5px solid #3B82F6;
     border-radius: 15px;
+    font-size: 18px;
 }
 
 header {
@@ -38,13 +47,13 @@ header {
     color: #fff;
     padding: 0 15px;
     margin: 0;
-
 }
 
 .logo {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 24px;
     flex-shrink: 2;
+    color: #E5E7EB;
 }
 
 ul {
@@ -62,6 +71,7 @@ ul {
     gap: 10vw;
     padding: 6vh 15px;
     align-items: center;
+    border: none;
 }
 
 .hero-section-left-text {
@@ -72,9 +82,32 @@ ul {
 
 .hero-section-image {
     width: 40%;
-    height: 200px;
-    background-color: gray;
+    height: 250px;
+    background-color: #6D747D;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.card-holder {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+    justify-content: center;
+}
+
+.content-card {
+    width: 20%;
+    text-align: center;
+}
+
+.card-image {
+    border: 5px solid #3B82F6;
+    border-radius: 50px;
+    height: 14vh;
+}
+
+.content-card p {
+    color: #6D747D;
+    font-size: 15px;
 }
