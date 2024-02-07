@@ -16,12 +16,21 @@ h2 {
     font-weight: 900;
 }
 
+h3 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+    color:#E5E7EB;
+    margin: 0;
+}
+
 p {
     color: #E5E7EB;
     font-size: 18px;
+    margin: 0;
 }
 
-.hero-section-left-text h1, p{
+.hero-section-left-text h1, .hero-section-left-text p{
     padding: 0;
     margin: 8px;
 
@@ -35,8 +44,17 @@ p {
     margin: 8px;
     text-align: center;
     border: 5px solid #3B82F6;
-    border-radius: 15px;
+    border-radius: 10px;
     font-size: 18px;
+}
+
+.btn-secondary {
+    text-decoration: none;
+    padding: 5px 20px;
+    color:#E5E7EB;
+    border: 2px solid #E5E7EB;
+    border-radius: 10px;
+    font-size: 15px;
 }
 
 header {
@@ -92,19 +110,19 @@ ul {
 .card-holder {
     display: flex;
     flex-wrap: wrap;
-    gap: 2vw;
+    gap: 5vw;
     justify-content: center;
 }
 
 .content-card {
-    width: 20%;
+    width: 12vw;
     text-align: center;
 }
 
 .card-image {
-    border: 5px solid #3B82F6;
-    border-radius: 50px;
-    height: 14vh;
+    border: 4px solid #3B82F6;
+    border-radius: 20px;
+    height: 10vh;
 }
 
 .content-card p {
@@ -115,7 +133,7 @@ ul {
 .quotes-holder {
     background-color: #E5E7EB;
     margin: 50px -8px;
-    padding: 2vh 18vw 1vh 18vw;
+    padding: 7vh 18vw 5vh 18vw;
 }
 
 .quotes {
@@ -133,3 +151,21 @@ ul {
     font-size: 18px;
     text-align: right;
 }
+
+.cta-section {
+    padding: 10vh 20vw;
+}
+
+.cta-holder {
+    background-color: #3B82F6;
+    padding: 2vh 5vw;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-holder p {
+    font-size: 15px;
+}
+
